@@ -1,8 +1,7 @@
+
 body{ 
     background: hsl(0, 0%, 0%);
 }
-
-
 .profile-card{
     width:100000%;
     background:hsl(0, 97%, 49%);
@@ -11,20 +10,17 @@ body{
     box-shadow:0 4px 15px #fffdfd;
     margin:auto;
 }
-
 .cover img{
     width:100%;
     height:250px;
     object-fit:cover;
 }
-
 .content{
     text-align: left;
     padding:70px 20px 30px;
     position:relative;
     padding: 150px 20px 20px;
 }
-
 .profile{ 
     width: 250px;
     height: 250px;
@@ -35,12 +31,10 @@ body{
     left:20%;
     transform:translateX(-60%);
 }
-
 .profile-card,
 .analytics-card,
 .about-card{
-
-    width:90%;
+    width: 90%;
     max-width:1200px;
     margin:auto;
     margin:20px auto;
@@ -48,8 +42,6 @@ body{
     background:white;
     border-radius:12px;
     box-shadow:0 2px 8px rgba(0,0,0,.15);
-    
-    
 }
 .MyExperience-card{
     width:90%;
@@ -60,24 +52,26 @@ body{
     background:white;
     border-radius:12px;
     box-shadow:0 2px 8px rgba(0,0,0,.15);
-  
-    
 }
+.MyExperience-card h3{
+   width:90%;
+    max-width:1200px;
+    margin:auto;
+    margin: 30px auto;
+    padding:25px 25px 15px;
+}
+   
 #no1 , #no2 , #no3{
   padding: 3px;
   height: 20px;
   width: 20px;
   display: flex;
-
   align-items: center;
   gap: 500px;
   justify-content: center;
   text-align: end auto; 
-
-  
 }
 h3{
-   
     height: 20px;
     display: flex;
     align-items: center;
@@ -87,21 +81,25 @@ h3{
     margin:5px 0;
     padding:0;
     font-size:18px;
-    font-weight:500;
-    
+    font-weight:500; 
 }
-
-
 .MyCertificates-card{
     width:90%;
     max-width:1200px;
     margin:auto;
-    margin:20px auto;
+    margin: 30px auto;
     padding:25px 25px 15px;
     background:#ffffff;
     border-radius:12px;
     box-shadow:0 2px 8px rgba(0,0,0,.15);
-    
+}
+.MyCertificates-card h3{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    margin: 30px auto;
+    padding:25px 25px 15px;
+  
 }
 .MyEducation-card{
     width:90%;
@@ -112,23 +110,21 @@ h3{
     background:white;
     border-radius:12px;
     box-shadow:0 2px 8px rgba(0,0,0,.15);
-
-
 }
-
+.MyEducation-card h3{
+   width:90%;
+    max-width:1200px;
+    margin:auto;
+    margin: 30px auto;
+    padding:25px 25px 15px;
+}
+    
 .certificate-image{
     padding:  10px 100px ;
     width:220px;
     height:auto;
     border-radius:8px;
-   
 }
-
-
-
-
-
-
 .popup{
     display:none;
     position:fixed;
@@ -140,16 +136,13 @@ h3{
     justify-content:center;
     align-items:center;
     gap: 800px 120px;
-   
 }
-
 .popup-image{
     width:80%;
     max-width:900px;
     border-radius:10px;
     gap: 800px 120px;
 }
-
 .close{
     position:absolute;
     top:30px;
@@ -158,153 +151,72 @@ h3{
     font-size:40px;
     cursor:pointer;
     gap: 800px 120px;
-    border-radius: 500px 500px;
-    
+    border-radius: 500px 500px;   
 }
-
-
-
-
-
 .certificate-image:active{
-
     transform:scale(.95);
 }
 .certificate-image:hover{
-
     transform:scale(1.08) rotate(2deg);
 }
-
 .certificate-image:hover{
-
     filter:brightness(110%);
 }
-
 .certificate-card:hover{
-
     background:hsl(0, 0%, 0%);
 }
-
-
 .certificate-image{
-
     width:180px;
-
     border-radius:12px;
-
     cursor:pointer;
-
     transition:.4s;
-
     box-shadow:0 5px 12px rgba(0,0,0,.15);
 }
-
 .certificate-image:hover{
-
     transform:translateY(-8px) scale(1.05);
-
     box-shadow:0 15px 35px rgba(0,0,0,.3);
-
     border:2px solid #0A66C2;
-
     filter:brightness(105%);
 }
-
 .certificate-image:active{
-
     transform:scale(.97);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .certificate-image{
-
     transition:.4s;
 }
-
 .certificate-image:hover{
-
     box-shadow:
     0 0 20px #00ffff,
     0 0 25px #0602e6,
     0 0 30px #b506bb,
     0 0 35px #008ddf;
-    
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .certificate-item{
-
     display:flex;
-
     align-items:center;
-
     gap:25px;
-
     margin:35px 0;
-
     padding:20px;
-
     border-radius:12px;
-
     transition:.4s;
-
     cursor:pointer;
 }
-
 .certificate-item:hover{
-
     background:#f5f5f5;
-
     transform:translateY(-5px);
-
     box-shadow:0 8px 20px rgba(0,0,0,.15);
 }
-
 .company-logo{
-
     width:90px;
-
     height:90px;
-
     object-fit:contain;
 }
-
 .certificate-thumbnail{
-
     width:220px;
-
     border-radius:10px;
-
     transition:.4s;
 }
-
 .certificate-thumbnail:hover{
-
     transform:scale(1.05);
     box-shadow:
     0 0 20px #00ffff,
@@ -312,116 +224,51 @@ h3{
     0 0 30px #b506bb,
     0 0 35px #008ddf;
 }
-
 .certificate-info{
-
     flex:1;
 }
-
 .certificate-info h2{
-
     margin:0;
 }
-
 .certificate-info h3{
-
     margin:10px 0;
 }
-
 .skills{
-
     margin-top:10px;
-
     line-height:30px;
-
     color:#555;
 }
-
 /* POPUP */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .popup0,.popup1,.popup2,.popup3,.popup4,.popup5,.popup6,.popup7,.popup8{
-
     display:none;
-
     position:fixed;
-
     left:0;
-
     top:0;
-
     width:100%;
-
     height:100%;
-
     background:rgba(0,0,0,.9);
-
     justify-content:center;
-
     align-items:center;
-
     z-index:9999;
 }
-
-
 .popup0,.popup1,.popup2,.popup3,.popup4,.popup5,.popup6,.popup7,.popup8{
 transition:.4s;
- 
- 
 }
-
-
 .popup0,.popup1,.popup2,.popup3.popup4,.popup5,.popup6,.popup7,.popup8 :hover{
-
- 
     box-shadow:
     0 0 20px #00ffff,
     0 0 25px #0602e6,
     0 0 30px #b506bb,
     0 0 35px #008ddf;
 }
-
-
-.popup-image0,.popup-image1,.popup-image2,.popup-image3,.popup-image4,.popup-image5,.popup-image6,.popup-image7,.popup-image8{
-
+.popup-image0,.popup-image1,.popup-image2,.popup-image3,.popup-image4,.popup-image5,.popup-image6,.popup-image7,.popup-image8{  
     width:85%;
-
     max-width:1000px;
-
     border-radius:12px;
 }
-
-
-
 .popup-image0,.popup-image1,.popup-image2,.popup-image3,.popup-image4,.popup-image5,.popup-image6,.popup-image7,.popup-image8{
-
     transition:.4s;
 }
-
 .popup-image0,.popup-image1,.popup-image2,.popup-image3,.popup-image4,.popup-image5,.popup-image6,.popup-image7,.popup-image8:hover{
       box-shadow:
     0 0 20px #00ffff,
@@ -429,9 +276,6 @@ transition:.4s;
     0 0 30px #b506bb,
     0 0 35px #008ddf;
 }
-
-
-
 .close0,.close1,.close2,.close3,.close4,.close5,.close6,.close7,.close8{
     position:absolute;
     top:30px;
@@ -441,10 +285,5 @@ transition:.4s;
     cursor:pointer;
     gap: 800px 120px;
     border-radius: 500px 500px;
- 
-  
-    
 }
-
-
 

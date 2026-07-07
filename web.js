@@ -1,15 +1,3 @@
-// function openCertificate(image){
-
-//     document.getElementById("popupImage").src = image;
-
-//     document.getElementById("popup").style.display = "flex";
-// }
-
-// function closeCertificate(){
-
-//     document.getElementById("popup").style.display = "none";
-// }
-
 function openMetaCertificate(image){
 
     document.getElementById("popupImage0").src = image;
@@ -65,25 +53,6 @@ function openEliteForumsCertificate(image){
     document.getElementById("popup8").style.display = "flex";
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function closeCertificate1(){
 
     document.getElementById("popup0").style.display = "none";
@@ -121,11 +90,3 @@ function closeCertificate9(){
 
     document.getElementById("popup8").style.display = "none";
 }
-
-
-
-
-
-
-
-
